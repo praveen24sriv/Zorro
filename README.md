@@ -2,7 +2,7 @@
 
 A dashboard design.
 
-![Dashboard Preview](./dashboard.png)
+![Dashboard Preview](./public/dashboard.png)
 ## Features
 - **Tech Stack:** React, Tailwind CSS (v4), Vite.
 - **Responsive:** Fully responsive layout with a collapsible mobile sidebar.
