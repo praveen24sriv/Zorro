@@ -1,3 +1,4 @@
+
 export const kpiData = [
   { label: "Deals", value: "256", change: "-5" },
   { label: "Value", value: "528k", change: "7.9%", active: true },
@@ -9,4 +10,9 @@ export const platformStats = [
   { icon: "📷", name: "Instagram", val: "$142,823", pct: "27%", color: "text-[#E4405F]" },
   { icon: "Be", name: "Behance", val: "$89,935", pct: "11%", color: "text-[#1769FF]" },
   { icon: "G", name: "Google", val: "$37,028", pct: "7%", color: "text-green-600" },
+];
+
+export const salesData = [
+  { name: "Armin A.", rev: "$209,633", leads: "41", kpi: "0.84" },
+  { name: "Mikasa A.", rev: "$156,841", leads: "54", kpi: "0.89", active: true },
 ];
