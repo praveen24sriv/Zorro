@@ -1,8 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* Utility to hide scrollbar but keep functionality */
+/* Optional: Keep the scrollbar hiding utility */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
@@ -12,5 +10,6 @@
 }
 
 body {
-  background-color: #F3F4F6; /* Matches the dashboard bg */
+  background-color: #F3F4F6;
+  font-family: 'Inter', sans-serif;
 }
